@@ -1,0 +1,8 @@
+*.o
+*.obj
+_src*
+_src/*
+*.dll
+*.exe
+*.stackdump
+*.core
