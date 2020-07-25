@@ -6,7 +6,9 @@ Usage:
 
     ./main.exe foo '\.txt$'
 
-This would create an assembly named `foo.dll`, containing the namespace `Utilities.RegularExpressions`, and the classes `rx1`, `rx1Factory`, and `rx1Runner`. The name of each compiled regular expression is thusly `rx1`, `rx2`, `rx3` ..., and so on.
+This would create an assembly named `foo.dll`, containing the namespace `Utilities.RegularExpressions`, and the classes `rx1`, `rx1Factory`, and `rx1Runner`. The name of each compiled regular expression is thusly `rx1`, `rx2`, `rx3` ..., and so on.  
+Modifying the names of these classes, as well as the namespace is straight-forward enough (*use the source, luke!*). 
+
 
 In conjunction with a C# decompiler, this is a great way to study regular expressions (and their state machines therein), which is what I primarily use it for. 
 
